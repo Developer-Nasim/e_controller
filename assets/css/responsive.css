@@ -1,0 +1,262 @@
+/* Normal desktop :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+
+
+}
+
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+
+
+}
+
+ 
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    .hero-area img { 
+        height: 250px; 
+    }
+    .hero-area {
+        padding-bottom: 70px; 
+    }
+    .DashBoard-area .desbord-title h1 {
+        font-size: 50px;
+    }
+    .DashBoard-area .desbord-title {
+        margin-top: -80px;
+        margin-bottom: 50px;
+    }
+    .desbord-box h5 { 
+        top: 10px;
+        left: 10px;
+        font-size: 20px;
+    }
+    .desbord-box h1 { 
+        font-size: 46px;
+        margin-top: 30px;
+    }
+    .desbord-box h1 span {
+        font-size: 20px;
+    }
+    .desbord-box { 
+        height: 140px; 
+    }
+    .piea svg {
+        width: 115px;
+        position: relative;
+        top: -47px;
+        left: -5px;
+    }
+    .piea {
+        max-width: 100px;
+        max-height: 100px; 
+        top: -10px;
+    }
+    .percent {
+        font-size: 32px;
+    }
+    .desbord-box img {
+        width: 50px;
+        object-position: center;
+        margin-left: -27px;
+        height: 100px;
+        margin-right: 0px;
+    }
+    .desbord-box.bettary h1 { 
+        bottom: -15px; 
+    }
+    div#main-chart {
+        margin-bottom: 50px;
+    }
+    .row.valuedetailse .desbord-box h1 {
+        font-size: 36px;
+        margin-top: 20px;
+    }
+    .row.valuedetailse .desbord-box {
+        height: 85px;
+    }
+    div#main-chart-two {
+        margin-bottom: 50px;
+    }
+    .desbord-box h4 {
+        position: absolute;
+        bottom: 5px;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 18px;
+    }
+    .row.chart-chirt.fChirtLEFT.fChirtRIGHT h1 {
+        margin-top: 10px;
+    }
+    .teble-title h3 {
+        font-size: 36px;
+        margin: 0;
+    }
+    .teble-title a.tblBTN {
+        position: absolute;
+        right: 15px;
+        top: 30px;
+        font-size: 17px;
+        color: #fff;
+        padding: 1px 18px;
+        background: #0088FE;
+        padding-top: 5px;
+    }
+    td.btn-td {
+        width: 330px !important;
+        padding-left: 10px !important;
+    }
+    a.tblBTN {
+        background: #FF6600;
+        padding: 4px 16px;
+        position: relative;
+        top: -6px;
+        font-size: 18px;
+        padding-top: 5px;
+    }
+    .row.table-row.first-table tbody tr td:nth-child(2) {
+        padding-left: 17px !important;
+        width: 184px !important;
+        text-align: right;
+        padding-right: 0;
+    }
+    .owl-nav .owl-prev { 
+        left: 41%; 
+    }
+    .owl-nav .owl-next { 
+        right: 41%; 
+    }
+    .row.table-row.table-row-two table td {
+        border: none;
+        padding-left: 55px;
+        width: 320px;
+    }
+
+    .row.table-row.table-row-three table td {
+        border: none;
+        padding-left: 55px;
+        width: 275px;
+    }
+
+
+    
+
+}
+
+ 
+/* small mobile :320px. */
+@media (max-width: 767px) {
+    div#main-chart {
+        margin-bottom: 50px;
+    }
+    .desbord-box.progress {
+        margin-bottom: 50px;
+    }
+    
+    .desbord-box.progress h5 {
+        top: 95% !important;
+    }
+    .row.chart-chirt {
+        padding-top: 0;
+    }
+    .row.table-row table {
+        width: 100%;
+        overflow: scroll;
+        display: block;
+    }
+    .DashBoard-area .desbord-title h1 {
+        font-size: 49px;
+    }
+    .desbord-box h1 {
+        margin: 0;
+        font-size: 64px;
+        margin-top: 30px;
+    }
+    .row.chart-chirt.fChirtLEFT.fChirtRIGHT .desbord-box h1 { 
+        margin-top: 10px;
+    }
+    .desbord-box h4 {
+        position: absolute;
+        bottom: 35px;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 22px;
+    }
+    .owl-nav .owl-prev { 
+        left: 32%; 
+        font-size: 45px;
+        bottom: -56px;
+    }
+    .owl-nav .owl-next { 
+        right: 32%; 
+        font-size: 45px;
+        bottom: -56px;
+    }
+    .owl-dots .owl-dot {
+        width: 10px;
+        height: 10px; 
+    }
+    .teble-title { 
+        padding-left: 10px; 
+    }
+    .teble-title a.tblBTN {
+        position: absolute;
+        right: 15px;
+        top: 30px;
+        font-size: 18px;
+        color: #fff;
+        padding: 0px 25px;
+        background: #0088FE;
+        padding-top: 2px;
+    }
+    .row.table-row table td { 
+        padding-left: 15px;
+        font-size: 16px;
+    }
+    .row.table-row table tr td {
+        width: 92px !important;
+        padding-right: 0;
+    }
+    .row.table-row.table-row-three a.tblBTN:nth-child(1) {
+        background: #ABD373;
+        top: -10px;
+    }
+    .row.table-row.table-row-three a.tblBTN:nth-child(2) {
+        top: 2px;
+    }
+    .row.table-row.table-row-two tbody tr td.btn-td a.tblBTN:nth-child(1) {
+        background: #0088fe;
+        top: -14px;
+    }
+    .row.table-row.table-row-two tbody tr td.btn-td a.tblBTN:nth-child(2) {
+        top: 0px;
+    }
+    .row.table-row.first-table td.btn-td a.tblBTN:nth-child(1) { 
+        top: -12px;
+    }
+    
+    .row.table-row.first-table td.btn-td a.tblBTN:nth-child(2) { 
+        top: 1px;
+    }
+    .teble-title h3 {
+        font-size: 36px; 
+    }
+}
+ 
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.container {width:450px}
+.hero-area {
+    padding-bottom: 55px;
+    background: #000;
+    margin-top: 50px;
+}
+.DashBoard-area .desbord-title h1 {
+    font-size: 46px;
+}
+.DashBoard-area .desbord-title {
+    margin-top: -75px; 
+}
+
+}

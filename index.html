@@ -1,0 +1,511 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Site Title Here</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="manifest" href="site.webmanifest">
+		<link rel="shortcut icon" type="image/x-icon" href="assets/img/">
+        <!-- Place favicon.ico in the root directory -->
+
+		<!-- CSS here -->
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/css/owl.carousel.min.css"> 
+        <link rel="stylesheet" href="assets/css/fontawesome-all.min.css"> 
+        <link href="https://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="assets/css/responsive.css"> 
+    </head>
+    <body> 
+ 
+        <!-- hero-area START -->
+        <div class="hero-area" style="background:url(assets/img/bike.jpg);height: 300px;background-repeat: no-repeat;background-size: cover;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12"> 
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- hero-area END -->
+
+        <!-- DashBoard-area START -->
+        <div class="DashBoard-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="desbord-title">
+                            <h1>E-Control DashBoard</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="row desbord-wrepper">
+                    <div class="col-lg-3 col-md-3">
+                        <div class="desbord-box">
+                            <h5>Total Km </h5>
+                            <h1>30004 <span>km</span></h1>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3">
+                        <div class="desbord-box color-two">
+                            <h5>Highest Speed </h5>
+                            <h1>98 <span>km/h</span></h1>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3">
+                        <div class="desbord-box color-three">
+                            <h5>Average Speed:</h5>
+                            <h1>37.5 <span>km/h</span></h1>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3">
+                        <div class="desbord-box color-four">
+                            <h5>Average Speed: </h5>
+                            <h1>37.5 <span>km/h</span></h1>
+                        </div>
+                    </div>  
+                    <div class="col-lg-3 col-md-3">
+                        <div class="desbord-box  color-five">
+                            <h5>Average Speed: </h5>
+                            <h1>37.5 <span>km/h</span></h1>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3">
+                        <div class="desbord-box progress transparent">
+                            <div class="piea"></div>
+                            <h5>Temperature
+                            </h5>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3">
+                        <div class="desbord-box  color-six">
+                            <h5>Average Speed: </h5>
+                            <h1>37.5 <span>km/h</span></h1>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3">
+                        <div class="desbord-box  color-seven">
+                            <h5>Average Speed: </h5>
+                            <h1>37.5 <span>km/h</span></h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="row chart-chirt fChirtLEFT">
+                    <div class="col-lg-3 col-md-3">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="desbord-box bettary">
+                                    <img src="assets/img/Battery.png" alt="">
+                                    <h1>75.6 </h1>
+                                </div>
+                            </div>
+                            <div class="col-lg-12">
+                                <div class="desbord-box color-five">
+                                    <h5>SOC</h5>
+                                    <h1>37.5</h1>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-9 col-md-9">
+                        <div id="main-chart"></div>  
+                    </div>
+                </div>
+                <div class="row valuedetailse"> 
+                    <div class="col-lg-3 col-md-3">
+                        <div class="desbord-box color-eight">
+                            <h5>Val 1 </h5>
+                            <h1>37.5</h1>
+                        </div>
+                    </div> 
+                    <div class="col-lg-3 col-md-3">
+                        <div class="desbord-box color-four">
+                            <h5>Val 2 </h5>
+                            <h1>60.5</h1>
+                        </div>
+                    </div> 
+                    <div class="col-lg-3 col-md-3">
+                        <div class="desbord-box color-two">
+                            <h5>Val 3 </h5>
+                            <h1>100</h1>
+                        </div>
+                    </div> 
+                    <div class="col-lg-3 col-md-3">
+                        <div class="desbord-box">
+                            <h5>Val 4 </h5>
+                            <h1>37.5</h1>
+                        </div>
+                    </div> 
+                </div>
+                <div class="row chart-chirt fChirtLEFT fChirtRIGHT">
+                    <div class="col-lg-9 col-md-9">
+                        <div id="main-chart-two"></div>  
+                    </div>
+                    <div class="col-lg-3 col-md-3">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="desbord-box color-two"> 
+                                    <h5>Val 1 </h5>
+                                    <h1>37.5</h1>
+                                    <h4>2/2/2020</h4>
+                                </div>
+                            </div>
+                            <div class="col-lg-12">
+                                <div class="desbord-box color-six">
+                                    <h5>Val 1</h5>
+                                    <h1>37.5</h1>
+                                    <h4>2/2/2020</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+                <div class="row table-row first-table">
+                    <div class="col-lg-12">
+                        <div class="table-slider owl-carousel"> 
+                            <div class="table">
+                                <div class="table-title">
+                                    <div class="teble-title">
+                                        <h3>Logging</h3>
+                                    <a href="#" class="tblBTN">Updat</a> 
+                                    </div>
+                                    <table> 
+                                        <thead>
+                                            <tr class="trHEAD">
+                                                <td> Name</td>
+                                                <td>Date</td>
+                                                <td colspan="2">Size</td> 
+                                            </tr>
+                                        </thead>
+                                        <tbody> 
+                                            <tr class="trTWO">
+                                                <td>EConsoleLog_10102020.csv</td> 
+                                                <td> 10/10/2020 13:15 </td>
+                                                <td>300kByte</td>
+                                                <td class="btn-td"><a href="#" class="tblBTN">Export</a> <a href="#" class="tblBTN">Delete</a></td>  
+                                            </tr> 
+                                            <tr class="trTHREE">
+                                                <td>EConsoleLog_10102020.csv</td> 
+                                                <td> 10/10/2020 13:15 </td>
+                                                <td>300kByte</td>
+                                                <td class="btn-td"><a href="#" class="tblBTN">Export</a> <a href="#" class="tblBTN">Delete</a></td>  
+                                            </tr> 
+                                            <tr class="trFOUR">
+                                                <td>EConsoleLog_10102020.csv</td> 
+                                                <td> 10/10/2020 13:15 </td>
+                                                <td>300kByte</td>
+                                                <td class="btn-td"><a href="#" class="tblBTN">Export</a> <a href="#" class="tblBTN">Delete</a></td>  
+                                            </tr> 
+                                            <tr class="trFIVE">
+                                                <td>EConsoleLog_10102020.csv</td> 
+                                                <td> 10/10/2020 13:15 </td>
+                                                <td>300kByte</td>
+                                                <td class="btn-td"><a href="#" class="tblBTN">Export</a> <a href="#" class="tblBTN">Delete</a></td>  
+                                            </tr> 
+                                            <tr class="trSIX">
+                                                <td>EConsoleLog_10102020.csv</td> 
+                                                <td> 10/10/2020 13:15 </td>
+                                                <td>300kByte</td>
+                                                <td class="btn-td"><a href="#" class="tblBTN">Export</a> <a href="#" class="tblBTN">Delete</a></td>  
+                                            </tr> 
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div> 
+                            <div class="table">
+                                <div class="table-title">
+                                    <div class="teble-title">
+                                        <h3>Logging</h3>
+                                    <a href="#" class="tblBTN">Updat</a> 
+                                    </div>
+                                    <table> 
+                                        <thead>
+                                            <tr class="trHEAD">
+                                                <td> Name</td>
+                                                <td>Date</td>
+                                                <td colspan="2">Size</td> 
+                                            </tr>
+                                        </thead>
+                                        <tbody> 
+                                            <tr class="trTWO">
+                                                <td>EConsoleLog_10102020.csv</td> 
+                                                <td> 10/10/2020 13:15 </td>
+                                                <td>300kByte</td>
+                                                <td class="btn-td"><a href="#" class="tblBTN">Export</a> <a href="#" class="tblBTN">Delete</a></td>  
+                                            </tr> 
+                                            <tr class="trTHREE">
+                                                <td>EConsoleLog_10102020.csv</td> 
+                                                <td> 10/10/2020 13:15 </td>
+                                                <td>300kByte</td>
+                                                <td class="btn-td"><a href="#" class="tblBTN">Export</a> <a href="#" class="tblBTN">Delete</a></td>  
+                                            </tr> 
+                                            <tr class="trFOUR">
+                                                <td>EConsoleLog_10102020.csv</td> 
+                                                <td> 10/10/2020 13:15 </td>
+                                                <td>300kByte</td>
+                                                <td class="btn-td"><a href="#" class="tblBTN">Export</a> <a href="#" class="tblBTN">Delete</a></td>  
+                                            </tr> 
+                                            <tr class="trFIVE">
+                                                <td>EConsoleLog_10102020.csv</td> 
+                                                <td> 10/10/2020 13:15 </td>
+                                                <td>300kByte</td>
+                                                <td class="btn-td"><a href="#" class="tblBTN">Export</a> <a href="#" class="tblBTN">Delete</a></td>  
+                                            </tr> 
+                                            <tr class="trSIX">
+                                                <td>EConsoleLog_10102020.csv</td> 
+                                                <td> 10/10/2020 13:15 </td>
+                                                <td>300kByte</td>
+                                                <td class="btn-td"><a href="#" class="tblBTN">Export</a> <a href="#" class="tblBTN">Delete</a></td>  
+                                            </tr> 
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div> 
+                            <div class="table">
+                                <div class="table-title">
+                                    <div class="teble-title">
+                                        <h3>Logging</h3>
+                                    <a href="#" class="tblBTN">Updat</a> 
+                                    </div>
+                                    <table> 
+                                        <thead>
+                                            <tr class="trHEAD">
+                                                <td> Name</td>
+                                                <td>Date</td>
+                                                <td colspan="2">Size</td> 
+                                            </tr>
+                                        </thead>
+                                        <tbody> 
+                                            <tr class="trTWO">
+                                                <td>EConsoleLog_10102020.csv</td> 
+                                                <td> 10/10/2020 13:15 </td>
+                                                <td>300kByte</td>
+                                                <td class="btn-td"><a href="#" class="tblBTN">Export</a> <a href="#" class="tblBTN">Delete</a></td>  
+                                            </tr> 
+                                            <tr class="trTHREE">
+                                                <td>EConsoleLog_10102020.csv</td> 
+                                                <td> 10/10/2020 13:15 </td>
+                                                <td>300kByte</td>
+                                                <td class="btn-td"><a href="#" class="tblBTN">Export</a> <a href="#" class="tblBTN">Delete</a></td>  
+                                            </tr> 
+                                            <tr class="trFOUR">
+                                                <td>EConsoleLog_10102020.csv</td> 
+                                                <td> 10/10/2020 13:15 </td>
+                                                <td>300kByte</td>
+                                                <td class="btn-td"><a href="#" class="tblBTN">Export</a> <a href="#" class="tblBTN">Delete</a></td>  
+                                            </tr> 
+                                            <tr class="trFIVE">
+                                                <td>EConsoleLog_10102020.csv</td> 
+                                                <td> 10/10/2020 13:15 </td>
+                                                <td>300kByte</td>
+                                                <td class="btn-td"><a href="#" class="tblBTN">Export</a> <a href="#" class="tblBTN">Delete</a></td>  
+                                            </tr> 
+                                            <tr class="trSIX">
+                                                <td>EConsoleLog_10102020.csv</td> 
+                                                <td> 10/10/2020 13:15 </td>
+                                                <td>300kByte</td>
+                                                <td class="btn-td"><a href="#" class="tblBTN">Export</a> <a href="#" class="tblBTN">Delete</a></td>  
+                                            </tr> 
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div> 
+                        </div>
+                    </div>
+                </div>
+                <div class="row table-row table-row-two">
+                    <div class="col-lg-12">
+                        <div class="table-slider owl-carousel"> 
+                            <div class="table">
+                                <div class="table-title">
+                                    <div class="teble-title">
+                                        <h3>Faults</h3>
+                                    <a href="#" class="tblBTN">Delete All</a> 
+                                    </div>
+                                    <table> 
+                                        <thead>
+                                            <tr class="trHEAD">
+                                                <td> Type</td>
+                                                <td>Source</td>
+                                                <td colspan="2">Date</td> 
+                                            </tr>
+                                        </thead>
+                                        <tbody> 
+                                            <tr class="trTWO">
+                                                <td>Over Voltag</td> 
+                                                <td>BMS</td>
+                                                <td>0/10/2020 13:15</td>
+                                                <td class="btn-td"><a href="#" class="tblBTN">Info</a> <a href="#" class="tblBTN">Delete</a></td>  
+                                            </tr> 
+                                            <tr class="trTHREE">
+                                                <td>Over Temperature</td> 
+                                                <td> Motor </td>
+                                                <td>0/10/2020 13:15</td>
+                                                <td class="btn-td"><a href="#" class="tblBTN">Info</a> <a href="#" class="tblBTN">Delete</a></td>  
+                                            </tr> 
+                                            <tr class="trFOUR">
+                                                <td>   </td> 
+                                                <td>   </td>
+                                                <td> </td>
+                                                <td class="btn-td"> </td>  
+                                            </tr>    
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div> 
+                            <div class="table">
+                                <div class="table-title">
+                                    <div class="teble-title">
+                                        <h3>Faults</h3>
+                                    <a href="#" class="tblBTN">Delete All</a> 
+                                    </div>
+                                    <table> 
+                                        <thead>
+                                            <tr class="trHEAD">
+                                                <td> Type</td>
+                                                <td>Source</td>
+                                                <td colspan="2">Date</td> 
+                                            </tr>
+                                        </thead>
+                                        <tbody> 
+                                            <tr class="trTWO">
+                                                <td>Over Voltag</td> 
+                                                <td>BMS</td>
+                                                <td>0/10/2020 13:15</td>
+                                                <td class="btn-td"><a href="#" class="tblBTN">Info</a> <a href="#" class="tblBTN">Delete</a></td>  
+                                            </tr> 
+                                            <tr class="trTHREE">
+                                                <td>Over Temperature</td> 
+                                                <td> Motor </td>
+                                                <td>0/10/2020 13:15</td>
+                                                <td class="btn-td"><a href="#" class="tblBTN">Info</a> <a href="#" class="tblBTN">Delete</a></td>  
+                                            </tr> 
+                                            <tr class="trFOUR">
+                                                <td>   </td> 
+                                                <td>   </td>
+                                                <td> </td>
+                                                <td class="btn-td"> </td>  
+                                            </tr>    
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div> 
+                            <div class="table">
+                                <div class="table-title">
+                                    <div class="teble-title">
+                                        <h3>Faults</h3>
+                                    <a href="#" class="tblBTN">Delete All</a> 
+                                    </div>
+                                    <table> 
+                                        <thead>
+                                            <tr class="trHEAD">
+                                                <td> Type</td>
+                                                <td>Source</td>
+                                                <td colspan="2">Date</td> 
+                                            </tr>
+                                        </thead>
+                                        <tbody> 
+                                            <tr class="trTWO">
+                                                <td>Over Voltag</td> 
+                                                <td>BMS</td>
+                                                <td>0/10/2020 13:15</td>
+                                                <td class="btn-td"><a href="#" class="tblBTN">Info</a> <a href="#" class="tblBTN">Delete</a></td>  
+                                            </tr> 
+                                            <tr class="trTHREE">
+                                                <td>Over Temperature</td> 
+                                                <td> Motor </td>
+                                                <td>0/10/2020 13:15</td>
+                                                <td class="btn-td"><a href="#" class="tblBTN">Info</a> <a href="#" class="tblBTN">Delete</a></td>  
+                                            </tr> 
+                                            <tr class="trFOUR">
+                                                <td>   </td> 
+                                                <td>   </td>
+                                                <td> </td>
+                                                <td class="btn-td"> </td>  
+                                            </tr>    
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div> 
+                        </div>
+                    </div>
+                </div>
+                <div class="row table-row table-row-three">
+                    <div class="col-lg-12">
+                        <div class="table">
+                            <div class="table-title">
+                                <div class="teble-title">
+                                    <h3>Firmware</h3> 
+                                </div>
+                                <table> 
+                                    <thead>
+                                        <tr class="trHEAD">
+                                            <td> Component</td>
+                                            <td>Version</td>
+                                            <td colspan="2">Last Update</td> 
+                                        </tr>
+                                    </thead>
+                                    <tbody> 
+                                        <tr class="trTWO">
+                                            <td>ESP32</td> 
+                                            <td>v1.12</td>
+                                            <td>10/10/2020 13:15 </td>
+                                            <td class="btn-td"><a href="#" class="tblBTN">Select</a> <a href="#" class="tblBTN">Update</a></td>  
+                                        </tr> 
+                                        <tr class="trTHREE">
+                                            <td>Main Processor</td> 
+                                            <td>v2.0</td>
+                                            <td>10/10/2020 13:15 </td>
+                                            <td class="btn-td"><a href="#" class="tblBTN">Select</a> <a href="#" class="tblBTN">Update</a></td>  
+                                        </tr> 
+                                        <tr class="trFOUR">
+                                            <td>Display</td> 
+                                            <td>v2.01</td>
+                                            <td>10/10/2020 13:15 </td>
+                                            <td class="btn-td"><a href="#" class="tblBTN">Select</a> <a href="#" class="tblBTN">Update</a></td>  
+                                        </tr>    
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div> 
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- DashBoard-area END -->  
+          
+ 
+
+
+
+		<!-- JS here -->
+        <script src="assets/js/vendor/modernizr-3.5.0.min.js"></script>
+        <script src="assets/js/vendor/jquery-3.4.1.min.js"></script>
+        <script src="assets/js/popper.min.js"></script>
+        <script src="assets/js/bootstrap.min.js"></script> 
+        <!-- chart -->
+        <script src="https://code.highcharts.com/highcharts.js"></script>
+        <script src="https://code.highcharts.com/highcharts-more.js"></script>
+        <script src="https://code.highcharts.com/modules/dumbbell.js"></script>
+        <script src="https://code.highcharts.com/modules/lollipop.js"></script>
+        <script src="https://code.highcharts.com/modules/exporting.js"></script>
+        <script src="https://code.highcharts.com/modules/accessibility.js"></script> 
+        <!-- chart -->
+        <script src="assets/js/owl.carousel.min.js"></script>  
+        <script src="assets/js/1351.js"></script>  
+         <script src="assets/js/radial-progress-bar.js"></script>   
+        <script src="assets/js/main.js"></script>  
+        <script>
+            window.addEventListener('DOMContentLoaded', () => {
+              new CircularProgressBar({
+                percent: 76,
+                pie: 'piea',
+                color: '#4A6EA8'
+              }); 
+            });
+          </script>
+    </body>
+</html>
