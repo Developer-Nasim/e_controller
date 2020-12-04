@@ -1,2 +1,2 @@
-# e_controller
-<img src="https://i.ibb.co/fkZpKGK/nasim1684061372142695.png" alt="nasim1684061372142695" border="0">
+# E_controller
+<img src="https://i.ibb.co/G2yTd7B/e-controller.png" alt="e-controller" border="0">
